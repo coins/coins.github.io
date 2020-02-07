@@ -4,10 +4,3 @@
 [submodule "research"]
 	path = research
 	url = ../research.git
-
-[submodule "lego-js"]
-	path = lego-js
-	url = ../lego-js.git
-[submodule "moma"]
-	path = moma
-	url = ../moma.git
