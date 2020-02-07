@@ -1,0 +1,3 @@
+[submodule "esplora-js"]
+	path = esplora-js
+	url = git@github.com:coins/esplora-js.git
