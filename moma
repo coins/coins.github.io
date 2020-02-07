@@ -1,0 +1,66 @@
+#!/bin/bash
+
+# Dependency: brew install hub
+
+ORGANIZATION="coins"
+
+# Verify that we're in the root directory
+ROOT_FILE="`pwd`/.gitmodules";
+if [ ! -f "$ROOT_FILE" ]; 
+then
+    echo "Error: Go to root directory"
+	exit 1
+fi
+
+# Verify inputs
+if [ -z "$1" ]
+then
+    echo "Error: Enter a package name"
+    exit 1
+fi
+
+if [ -z "$2" ]
+then
+    echo "Error: Enter a package description"
+    exit 1
+fi
+
+
+# Create Directory
+mkdir $1
+cd $1
+
+mkdir src
+mkdir dist
+
+# Readme Template
+cat  << EOF
+# $1
+$2
+EOF
+> src/README.md
+
+# Readme symlink 
+ln -s src/README.md README.md 
+
+# Initial commit
+git init
+git add -A
+git commit -m "Package initialization"
+
+# Create Repository in Github
+hub create $ORGANIZATION/$1 --description="$2"
+
+git push -u origin HEAD
+
+git push origin master
+
+# Go to root directory and commit the new submodule
+cd ..
+
+git submodule add ../$1.git $1
+git submodule init 
+
+git add -A
+git commit -m "Adding new package $1"
+git push
