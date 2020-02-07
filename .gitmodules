@@ -7,3 +7,6 @@
 [submodule "module-manager"]
 	path = module-manager
 	url = ../module-manager.git
+[submodule "hash-js"]
+	path = hash-js
+	url = ../hash-js.git
