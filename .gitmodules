@@ -13,3 +13,6 @@
 [submodule "numbers-js"]
 	path = numbers-js
 	url = ../numbers-js.git
+[submodule "primes-js"]
+	path = primes-js
+	url = ../primes-js.git
