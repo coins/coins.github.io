@@ -22,3 +22,6 @@
 [submodule "finite-field-js"]
 	path = finite-field-js
 	url = ../finite-field-js.git
+[submodule "buffer-js"]
+	path = buffer-js
+	url = ../buffer-js.git
