@@ -37,3 +37,6 @@
 [submodule "format-js"]
 	path = format-js
 	url = ../format-js.git
+[submodule "event-target-js"]
+	path = event-target-js
+	url = ../event-target-js.git
