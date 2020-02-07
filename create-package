@@ -1,0 +1,37 @@
+# Dependency: brew install hub
+
+$ORGANIZATION = "coins"
+
+if [ -z "$1" ]
+then
+    echo "Error: Enter a package name"
+else
+
+    mkdir $1
+	cd $1
+
+	mkdir src
+	mkdir dist
+	echo "# $1" > src/README.md
+	ln -s src/README.md README.md 
+
+	git init
+	git add -A
+	git commit -m "Package initialization"
+
+	hub create $ORGANIZATION/$1
+	
+	git push -u origin HEAD
+
+	git push origin master
+
+	cd ..
+
+	git add submodule ../$1.git
+	git submodule init 
+
+	git add -A
+	git commit -m "Adding new package $1"
+	git push
+fi
+
