@@ -19,7 +19,7 @@ else
 	git add -A
 	git commit -m "Package initialization"
 
-	hub create $ORGANIZATION/$1
+	hub create "$ORGANIZATION/$1"
 	
 	git push -u origin HEAD
 
