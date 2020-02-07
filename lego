@@ -2,7 +2,7 @@
 
 # Dependency: brew install hub
 
-$ORGANIZATION = "coins"
+ORGANIZATION="coins"
 
 if [ -z "$1" ]
 then
@@ -10,20 +10,26 @@ then
     exit 1
 fi
 
+if [ -z "$2" ]
+then
+    echo "Error: Enter a package description"
+    exit 1
+fi
 
-# mkdir $1
-# cd $1
+
+mkdir $1
+cd $1
 
 mkdir src
 mkdir dist
-echo "# $1" > src/README.md
+echo "# $1\n$2" > src/README.md
 ln -s src/README.md README.md 
 
 git init
 git add -A
 git commit -m "Package initialization"
 
-hub create coins/$1
+hub create $ORGANIZATION/$1 --description=$2
 
 git push -u origin HEAD
 
