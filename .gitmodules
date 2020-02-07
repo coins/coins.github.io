@@ -31,3 +31,6 @@
 [submodule "elliptic-js"]
 	path = elliptic-js
 	url = ../elliptic-js.git
+[submodule "clipboard-js"]
+	path = clipboard-js
+	url = ../clipboard-js.git
