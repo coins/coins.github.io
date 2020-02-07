@@ -40,3 +40,6 @@
 [submodule "event-target-js"]
 	path = event-target-js
 	url = ../event-target-js.git
+[submodule "bitcoin-uri-js"]
+	path = bitcoin-uri-js
+	url = ../bitcoin-uri-js.git
