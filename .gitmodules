@@ -1,6 +1,6 @@
 [submodule "esplora-js"]
-	path = esplora-js
-	url = https://github.com/coins/esplora-js.git
+	path = coins/esplora-js
+	url = ../esplora-js.git
 [submodule "research"]
-	path = research
-	url = https://github.com/coins/research.git
+	path = coins/research
+	url = ../research.git
