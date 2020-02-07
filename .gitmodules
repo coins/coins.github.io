@@ -19,3 +19,6 @@
 [submodule "accumulator-js"]
 	path = accumulator-js
 	url = ../accumulator-js.git
+[submodule "finite-field-js"]
+	path = finite-field-js
+	url = ../finite-field-js.git
