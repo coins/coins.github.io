@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Dependency: brew install hub
 
 $ORGANIZATION = "coins"
@@ -19,7 +21,7 @@ else
 	git add -A
 	git commit -m "Package initialization"
 
-	hub create "$ORGANIZATION/$1"
+	hub create coins/$1
 	
 	git push -u origin HEAD
 
@@ -27,11 +29,11 @@ else
 
 	cd ..
 
-	git add submodule ../$1.git
-	git submodule init 
+	# git add submodule ../coins/$1.git
+	# git submodule init 
 
-	git add -A
-	git commit -m "Adding new package $1"
-	git push
+	# git add -A
+	# git commit -m "Adding new package $1"
+	# git push
 fi
 
