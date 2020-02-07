@@ -29,11 +29,11 @@ else
 
 	cd ..
 
-	# git add submodule ../coins/$1.git
-	# git submodule init 
+	git submodule add ../$1.git $1
+	git submodule init 
 
-	# git add -A
-	# git commit -m "Adding new package $1"
-	# git push
+	git add -A
+	git commit -m "Adding new package $1"
+	git push
 fi
 
