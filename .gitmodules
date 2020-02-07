@@ -34,3 +34,6 @@
 [submodule "clipboard-js"]
 	path = clipboard-js
 	url = ../clipboard-js.git
+[submodule "format-js"]
+	path = format-js
+	url = ../format-js.git
