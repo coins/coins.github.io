@@ -16,3 +16,6 @@
 [submodule "primes-js"]
 	path = primes-js
 	url = ../primes-js.git
+[submodule "accumulator-js"]
+	path = accumulator-js
+	url = ../accumulator-js.git
