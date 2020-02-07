@@ -16,20 +16,20 @@ then
     exit 1
 fi
 
-
 mkdir $1
 cd $1
 
 mkdir src
 mkdir dist
-echo "# $1\n$2" > src/README.md
+echo "# $1"& 
+echo.$2 > src/README.md
 ln -s src/README.md README.md 
 
 git init
 git add -A
 git commit -m "Package initialization"
 
-hub create $ORGANIZATION/$1 --description=$2
+hub create $ORGANIZATION/$1 --description="$2"
 
 git push -u origin HEAD
 
@@ -43,3 +43,4 @@ git submodule init
 git add -A
 git commit -m "Adding new package $1"
 git push
+# 
