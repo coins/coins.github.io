@@ -10,3 +10,6 @@
 [submodule "hash-js"]
 	path = hash-js
 	url = ../hash-js.git
+[submodule "numbers-js"]
+	path = numbers-js
+	url = ../numbers-js.git
