@@ -4,3 +4,6 @@
 [submodule "research"]
 	path = research
 	url = ../research.git
+[submodule "test"]
+	path = test
+	url = ../test.git
