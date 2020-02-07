@@ -25,3 +25,6 @@
 [submodule "buffer-js"]
 	path = buffer-js
 	url = ../buffer-js.git
+[submodule "bitcoin-js"]
+	path = bitcoin-js
+	url = ../bitcoin-js.git
