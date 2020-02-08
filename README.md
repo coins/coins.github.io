@@ -5,21 +5,21 @@ Feedback is very welcome!
 
 ## Modules
 
-- [esplora-js](/coins/esplora-js)
-- [research](/coins/research)
-- [module-manager](/coins/module-manager)
-- [hash-js](/coins/hash-js)
-- [numbers-js](/coins/numbers-js)
-- [primes-js](/coins/primes-js)
-- [accumulator-js](/coins/accumulator-js)
-- [finite-field-js](/coins/finite-field-js)
-- [buffer-js](/coins/buffer-js)
-- [bitcoin-js](/coins/bitcoin-js)
-- [elliptic-js](/coins/elliptic-js)
-- [clipboard-js](/coins/clipboard-js)
-- [format-js](/coins/format-js)
-- [event-target-js](/coins/event-target-js)
-- [bitcoin-uri-js](/coins/bitcoin-uri-js)
+- [esplora-js](https://github.com/coins/esplora-js)
+- [research](https://github.com/coins/research)
+- [module-manager](https://github.com/coins/module-manager)
+- [hash-js](https://github.com/coins/hash-js)
+- [numbers-js](https://github.com/coins/numbers-js)
+- [primes-js](https://github.com/coins/primes-js)
+- [accumulator-js](https://github.com/coins/accumulator-js)
+- [finite-field-js](https://github.com/coins/finite-field-js)
+- [buffer-js](https://github.com/coins/buffer-js)
+- [bitcoin-js](https://github.com/coins/bitcoin-js)
+- [elliptic-js](https://github.com/coins/elliptic-js)
+- [clipboard-js](https://github.com/coins/clipboard-js)
+- [format-js](https://github.com/coins/format-js)
+- [event-target-js](https://github.com/coins/event-target-js)
+- [bitcoin-uri-js](https://github.com/coins/bitcoin-uri-js)
 
 
 
