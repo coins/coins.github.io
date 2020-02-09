@@ -2,6 +2,8 @@
 Product-driven research on Bitcoin scalability and usability. Prototypes and papers.
 Feedback is very welcome! 
 
+## DISCLAIMER
+under heavy development. Currently, expect breaking changes daily.
 
 ## Modules
 
