@@ -37,3 +37,9 @@
 [submodule "bitcoin-uri-js"]
 	path = bitcoin-uri-js
 	url = ../bitcoin-uri-js.git
+[submodule "esplora-js"]
+	path = esplora-js
+	url = ../esplora-js.git
+[submodule "research"]
+	path = research
+	url = ../research.git
