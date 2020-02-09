@@ -1,6 +1,3 @@
-[submodule "esplora-js"]
-	path = esplora-js
-	url = ../esplora-js.git
 [submodule "research"]
 	path = research
 	url = ../research.git
