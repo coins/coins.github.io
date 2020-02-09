@@ -1,6 +1,3 @@
-[submodule "research"]
-	path = research
-	url = ../research.git
 [submodule "module-manager"]
 	path = module-manager
 	url = ../module-manager.git
