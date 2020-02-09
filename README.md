@@ -3,13 +3,12 @@ Product-driven research on Bitcoin scalability and usability. Prototypes and pap
 Feedback is very welcome! 
 
 ## DISCLAIMER
-under heavy development. Currently, expect breaking changes daily.
+Under heavy development! Expect daily breaking changes.
 
 ## Modules
 
 - [research](https://github.com/coins/research)
 - [esplora-js](https://github.com/coins/esplora-js)
-- [module-manager](https://github.com/coins/module-manager)
 - [hash-js](https://github.com/coins/hash-js)
 - [numbers-js](https://github.com/coins/numbers-js)
 - [primes-js](https://github.com/coins/primes-js)
@@ -22,11 +21,11 @@ under heavy development. Currently, expect breaking changes daily.
 - [format-js](https://github.com/coins/format-js)
 - [event-target-js](https://github.com/coins/event-target-js)
 - [clipboard-js](https://github.com/coins/clipboard-js)
+- [module-manager](https://github.com/coins/module-manager)
 
 
 
 ## Development
-
 ```
 git clone --recursive git@github.com:coins/coins.github.io.git coins
 cd coins
