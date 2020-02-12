@@ -3,8 +3,10 @@ Product-driven research on Bitcoin scalability and usability. Prototypes and pap
 Feedback is very welcome! 
 
 ## DISCLAIMER
-THE CODE IS INSECURE. DO NOT USE IN PRODUCTION!
-Under heavy development! Expect daily breaking changes.
+```
+	THIS CODE IS INSECURE!! DO NOT USE IN PRODUCTION!
+	Under heavy development! Expect daily breaking changes.
+```
 
 ## Modules
 
