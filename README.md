@@ -36,3 +36,9 @@ Feedback is very welcome!
 git clone --recursive git@github.com:coins/coins.github.io.git coins
 cd coins
 ```
+
+
+## Testnet Key
+```
+91iscVTbXfBqkTCYRiF2ZvGvhDHW4TQxtDo6mGsDDGxMAQtMW1F mg6WdcMMWXYYSoSrHpyeX7CkLrq9T5DEyt
+```
