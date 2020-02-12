@@ -3,6 +3,7 @@ Product-driven research on Bitcoin scalability and usability. Prototypes and pap
 Feedback is very welcome! 
 
 ## DISCLAIMER
+THE CODE IS INSECURE. DO NOT USE IN PRODUCTION!
 Under heavy development! Expect daily breaking changes.
 
 ## Modules
@@ -23,6 +24,9 @@ Under heavy development! Expect daily breaking changes.
 - [clipboard-js](https://github.com/coins/clipboard-js)
 - [module-manager](https://github.com/coins/module-manager)
 
+## Test
+
+[Run the tests in this browser](https://coins.github.io/test)
 
 
 ## Development
